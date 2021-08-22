@@ -1,7 +1,10 @@
 from django.urls import path
+from django.views.generic import TemplateView
 
-from . import views
+from refugio.views.index import index
+from refugio.views.login import login
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('', index, name='index'),
+    path('login/', login, name='login'),
 ]

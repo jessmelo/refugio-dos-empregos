@@ -54,7 +54,7 @@ ROOT_URLCONF = 'refugio.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS':  [ BASE_DIR / 'refugio/templates' ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
