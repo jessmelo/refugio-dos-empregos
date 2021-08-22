@@ -1,6 +1,6 @@
 # refugio-dos-empregos
 
-para rodar o projeto:
+para rodar o projeto no localhost:
 
 instalar python
 
